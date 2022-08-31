@@ -1,0 +1,44 @@
+.main__about-us{
+    display: flex;
+}
+
+.main__text-about{
+    padding-left: 251px;
+}
+
+.main__image-man{
+    margin-right: 152px;
+}
+
+.main__graphic{
+    padding-top: 70px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+  }
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #402B2B;
+    width: 460px;
+    }
+
+.main__how-to-apply{
+    display: flex;
+}
+
+.main__image-girl{
+    margin: 29px 58px 0px 134px;
+}
+
+.main__text-apply{
+    margin-top: 130px;
+}

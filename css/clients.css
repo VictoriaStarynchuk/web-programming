@@ -1,0 +1,61 @@
+.clients__text{
+    padding-top: 58px;
+    text-align: center;
+}
+
+.clients__title{
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 140%;
+    color: #402B2B;
+    margin: 13px 0px 50px 0px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    margin: 0px 0px 184px 152px;
+}
+
+.bg__white{
+    width: 420px;
+    height: 360px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+    border-radius: 10px;
+}
+
+.grid__text{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #402B2B;
+    padding-top: 60px;
+    text-align: left;
+    width: 320px;
+}
+
+.grid__name{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #402B2B;
+    margin-left: 20px;
+}
+
+.box-content{
+    margin-left: 48px;
+}
+
+.data{
+    display: flex;
+    padding-top: 60px;
+}
+
+.data_2{
+    display: flex;
+    padding-top: 32px;
+}
