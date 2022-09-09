@@ -1,13 +1,6 @@
 .main__about-us{
     display: flex;
-}
-
-.main__text-about{
-    padding-left: 251px;
-}
-
-.main__image-man{
-    margin-right: 152px;
+    justify-content: center;
 }
 
 .main__graphic{
@@ -29,16 +22,29 @@
     line-height: 36px;
     color: #402B2B;
     width: 460px;
-    }
+}
 
 .main__how-to-apply{
     display: flex;
-}
-
-.main__image-girl{
-    margin: 29px 58px 0px 134px;
+    justify-content: center;
 }
 
 .main__text-apply{
     margin-top: 130px;
+}
+
+.main__image-man {
+    transition: transform .3s ease;
+}
+
+.main__image-man:hover{
+    transform: scale(1.1);
+}
+
+.main__image-girl {
+    transition: transform .3s ease;
+}
+
+.main__image-girl:hover{
+    transform: scale(1.1);
 }

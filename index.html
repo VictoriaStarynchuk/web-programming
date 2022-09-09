@@ -6,7 +6,9 @@
         <title>My first landing page!</title>
 
         <!-- DM Serif Display font -->
-        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@700&family=Rubik:wght@300;500;700&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@700&family=Rubik:wght@300;500;700&display=swap"
+            rel="stylesheet">
 
         <!-- My styles for project -->
         <link rel="stylesheet" href="css\styles.css">
@@ -14,115 +16,164 @@
     <body>
         <section class="intro">
             <div class="intro__image">
-                <img src="/web-programming/images/background_scene.png" alt="intro__image">
+                <img src="/web-programming/images/background_scene.png"
+                    alt="intro__image">
             </div>
-                <div class="intro__content">
-                    <header class="header">
-                        <div class="header__logo">
-                            <img src="/web-programming/images/footer_logo.svg" alt="Trafico.">
-                        </div>
-                        <nav class="header__nav">
-                            <ul>
-                                <li class="header__nav-iteam"><a href="#">ABOUT</a></li>
-                                <li class="header__nav-iteam"><a href="#">HOW TO</a></li>
-                                <li class="header__nav-iteam"><a href="#">FAQS</a></li>
-                            </ul>
-                        </nav>
-                        <button class="header__contact-us">
-                            <a href="#">
-                                <span>Contact us</span>
-                            </a> 
-                        </button>
-                    </header>
-                    <div class="intro__inner">
-                        <h1 class="intro__text">Your awesome traffic permit consultant.</h1>
-                        <button class="intro__get-started">
-                            <a href="#">
-                                <span>GET STARTED</span>
-                            </a>
-                        </button>
+            <div class="intro__content">
+                <header class="header">
+                    <div class="header__logo">
+                        <img src="/web-programming/images/footer_logo.svg"
+                            alt="Trafico.">
                     </div>
+                    <nav id="nav-links" class="header__nav">
+                        <ul>
+                            <li>
+                                <a class="header__nav-iteam" href="#">ABOUT</a>
+                            </li>
+                            <li>
+                                <a class="header__nav-iteam" href="#">HOW TO</a>
+                            </li>
+                            <li>
+                                <a class="header__nav-iteam" href="#">FAQS</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="header__contact-us">
+                        <a href="#">
+                            <span>Contact us</span>
+                        </a>
+                    </button>
+                    <div class="header__menu" onclick="toggleMenu()">
+                        <img src="images/menu_icon.svg" alt="Menu icon">
+                    </div>
+                </header>
+                <div class="intro__inner">
+                    <h1 class="intro__text">Your awesome traffic permit
+                        consultant.</h1>
+                    <button class="intro__get-started">
+                        <a href="#">
+                            <span>GET STARTED</span>
+                        </a>
+                    </button>
                 </div>
-                <div class="intro__car-image">
-                    <img src="/web-programming/images/car.svg" alt="car image">
-                </div>
+            </div>
+            <div class="intro__car-image">
+                <img src="/web-programming/images/car.svg" alt="car image">
+            </div>
         </section>
         <main>
             <div class="main__content">
                 <div class="main__about-us">
                     <div class="main__text-about">
                         <h1 class="main__title">About us</h1>
-                        <p class="main__paragraph">The occupational traffic permit is one of the most important things in the company when carrying out freight transport.  In fact, it is a prerequisite for doing business traffic at all. </p>
+                        <p class="main__paragraph">The occupational traffic
+                            permit is one of the most important things in the
+                            company when carrying out freight transport. In
+                            fact, it is a prerequisite for doing business
+                            traffic at all. </p>
                         <div class="container">
-                            <img class="main__graphic" src="/web-programming/images/rectangle.svg" alt="loading ...">
-                            <p class="centered-text">How do you do when you need to obtain 
-                                a commercial traffic permit for freight transport to your business?</p>
-                        </div> 
+                            <img class="main__graphic"
+                                src="/web-programming/images/rectangle.svg"
+                                alt="loading ...">
+                            <p class="centered-text">How do you do when you need
+                                to obtain
+                                a commercial traffic permit for freight
+                                transport to your business?</p>
+                        </div>
                     </div>
                     <div class="main__image-man">
-                        <img src="/web-programming/images/about_us_man.svg" alt="loading ...">
+                        <img src="/web-programming/images/about_us_man.svg"
+                            alt="loading ...">
                     </div>
                 </div>
                 <div class="main__how-to-apply">
                     <div class="main__image-girl">
-                        <img src="/web-programming/images/how_to_apply_girl.svg" alt="loading ...">
+                        <img src="/web-programming/images/how_to_apply_girl.svg"
+                            alt="loading ...">
                     </div>
                     <div class="main__text-apply">
                         <h1 class="main__title">How to apply</h1>
-                        <p class="main__paragraph">When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.</p>
+                        <p class="main__paragraph">When applying for a traffic
+                            permit, there are certain requirements that you must
+                            meet that are included in the examination:
+                            requirements for professional knowledge, solid
+                            establishment, good reputation and financial
+                            resources. Important to remember is to confirm your
+                            application for a traffic permit by the company's
+                            company signer or CEO.</p>
                     </div>
                 </div>
             </div>
         </main>
         <section class="clients">
             <div class="clients__text">
-                <h1 class="main__title">About us</h1>
+                <h1 class="about__title">About us</h1>
                 <p class="clients__title">Our Awesome Clients</p>
             </div>
             <div class="grid">
                 <div class="grid-iteam">
                     <div class="bg__white">
                         <div class="box-content">
-                            <p class="grid__text">Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign the permit as the Applicant or Agent for the Permittee.</p>
+                            <p class="grid__text">Yes, you will need to have the
+                                land owner sign the permit application as the
+                                Permittee, and you sign the permit as the
+                                Applicant or Agent for the Permittee.</p>
                             <div class="data">
-                                <image class="grid__photo" src="/web-programming/images/client_photo_first.svg" alt="photo">
-                                <p class="grid__name">Isak Pettersson</p> 
+                                <image class="grid__photo"
+                                    src="/web-programming/images/client_photo_first.svg"
+                                    alt="photo">
+                                    <p class="grid__name">Isak Pettersson</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="grid-iteam">
-                    <div class="bg__white">
-                        <div class="box-content">
-                            <p class="grid__text">From most barricade or traffic control companies located in the phone book. They employ certified Traffic Control Supervisors (TCS) who can generate and certify the traffic control plan. </p>
-                            <div class="data_2">
-                                <image class="grid__photo" src="/web-programming/images/client_photo_middle.svg" alt="photo">
-                                <p class="grid__name">Simon Sandberg</p>  
+                    <div class="grid-iteam">
+                        <div class="bg__white">
+                            <div class="box-content">
+                                <p class="grid__text">From most barricade or
+                                    traffic control companies located in the
+                                    phone book. They employ certified Traffic
+                                    Control Supervisors (TCS) who can generate
+                                    and certify the traffic control plan. </p>
+                                <div class="data_2">
+                                    <image class="grid__photo"
+                                        src="/web-programming/images/client_photo_middle.svg"
+                                        alt="photo">
+                                        <p class="grid__name">Simon Sandberg</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="grid-iteam">
-                    <div class="bg__white">
-                        <div class="box-content">
-                            <p class="grid__text">An A-Line, or access restriction deed is a property right that has been obtained by CDOT for the sole purpose of prohibiting direct</p>
-                            <div class="data">
-                                <image class="grid__photo" src="/web-programming/images/client_photo_last.svg" alt="photo">
-                                <p class="grid__name">Isak Pettersson</p> 
-                            </div> 
+                        <div class="grid-iteam">
+                            <div class="bg__white">
+                                <div class="box-content">
+                                    <p class="grid__text">An A-Line, or access
+                                        restriction deed is a property right
+                                        that has been obtained by CDOT for the
+                                        sole purpose of prohibiting direct</p>
+                                    <div class="data">
+                                        <image class="grid__photo"
+                                            src="/web-programming/images/client_photo_last.svg"
+                                            alt="photo">
+                                            <p class="grid__name">Isak
+                                                Pettersson</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer class="footer">
-            <div class="footer__background">
-                <div class="footer__content">
-                    <p class="footer__text">Copyright @ 2019</p>
-                    <img src="/web-programming/images/footer_logo.svg">
-                    <img src="/web-programming/images/footer_sm.svg">
-                </div>
-            </div>
-        </footer>
-    </body>
-</html>
+                    </section>
+                    <footer class="footer">
+                        <div class="footer__background">
+                            <div class="footer__content">
+                                <p class="footer__text">Copyright @ 2019</p>
+                                <img
+                                    src="/web-programming/images/footer_logo.svg">
+                                <img
+                                    src="/web-programming/images/footer_sm.svg">
+                            </div>
+                        </div>
+                    </footer>
+                    <script src="js/main.js"></script>
+                </body>
+            </html>
