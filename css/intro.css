@@ -1,0 +1,115 @@
+.intro__image {
+    display: flex;
+    justify-content: center;
+    padding-right: 6.3rem;
+    padding-left: 6.8rem;
+    margin-top: -40px;
+}
+
+.intro__content {
+    position: absolute;
+    top: 0px;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 292px;
+}
+
+.header__nav ul {
+    display: flex;
+}
+
+.header__nav-iteam {
+    margin-right: 94px;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    font-style: bold;
+    color: white;
+    transition: 1s ease;
+}
+
+.header__nav-iteam:hover {
+    color: #EE4D47;
+}
+
+.header__contact-us {
+    background: #EE4D47;
+    width: 158px;
+    height: 60px;
+    border-radius: 5px;
+    color: #FFFF;
+    font-weight: 700;
+    font-size: 16px;
+    align-content: center;
+    border: 0;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+}
+
+.header__menu {
+    display: none;
+    width: 32px;
+    cursor: pointer;
+}
+
+.header__menu>img {
+    max-width: 100%;
+}
+
+.header__menu-icon {
+    width: 40px;
+}
+
+.intro__inner {
+    padding-top: 75px;
+}
+
+
+.intro__text {
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100%;
+    width: 741px;
+    height: 300px;
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
+
+.intro__get-started {
+    width: 220px;
+    height: 60px;
+    background: #EE4D47;
+    border-radius: 5px;
+    color: #FFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    border: none;
+}
+
+.intro__get-started a span {
+    padding: 0 55px 0 0;
+    background: url(../images/arrow.svg) right no-repeat;
+}
+
+.intro__car-image {
+    position: relative;
+    left: -200px;
+    top: -245px;
+    animation: moving 5s linear 2;
+}
